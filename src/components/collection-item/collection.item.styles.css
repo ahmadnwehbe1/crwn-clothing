@@ -1,0 +1,49 @@
+.CollectionCard {
+  width: 320px !important;
+  height: 360px !important;
+  box-shadow: none !important;
+  margin: 25px auto auto auto !important;
+}
+
+.CollectionCard:hover .middle {
+  visibility: visible;
+}
+
+.imageCard:hover {
+  opacity: 0.7 !important;
+}
+
+.imageCard {
+  margin-bottom: 5px !important;
+  margin-top: 0px !important;
+}
+
+.middle {
+  position: absolute !important;
+  top: 75% !important;
+  text-transform: uppercase !important;
+  visibility: hidden;
+}
+
+.addToCart {
+  width: 250% !important;
+  margin-left: 16% !important;
+  text-transform: uppercase !important;
+  opacity: 0.7 !important;
+  background-color: white !important;
+  height: 50px !important;
+  color: black !important;
+  font-family: "Open Sans Condensed" !important;
+  font-weight: bolder !important;
+  font-size: 15px !important;
+}
+
+.addToCart:hover {
+  background-color: black !important;
+  color: white !important;
+}
+
+.itemName {
+  font-size: 18px !important;
+  font-family: "Open Sans Condensed";
+}

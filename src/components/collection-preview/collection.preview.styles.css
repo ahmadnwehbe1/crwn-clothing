@@ -1,0 +1,9 @@
+.collectionName:hover {
+  color: grey;
+}
+
+.collectionName {
+  cursor: pointer;
+  font-weight: bold !important;
+  text-align: center;
+}

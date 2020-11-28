@@ -1,0 +1,32 @@
+.ui.card.cardContent {
+  height: 90px;
+  text-align: center;
+  width: 120px !important;
+  opacity: 0.7;
+  text-transform: uppercase;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: bold;
+  color: rgb(74, 74, 74);
+  font-family: Open Sans Condensed;
+}
+
+.shopNow {
+  font-weight: lighter;
+  font-size: 16px;
+  font-family: Open Sans Condensed;
+}
+
+.outerCard {
+  transition: 1s !important;
+  cursor: pointer;
+}
+
+.outerCard:hover {
+  background-size: 120% 120% !important;
+}
+.outerCard:hover .ui.card.cardContent.cardContent {
+  opacity: 0.9;
+}
