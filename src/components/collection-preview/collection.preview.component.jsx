@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import { withRouter } from "react-router-dom/cjs/react-router-dom.min";
 import { Card } from "semantic-ui-react";
 import CollectionItem from "../collection-item/collection.item.component";
@@ -6,7 +6,7 @@ import "./collection.preview.styles.css";
 
 const CollectionPreview = ({ title, items, routeName, history }) => {
   return (
-    <Fragment>
+    <div>
       <h1
         className="collectionName"
         style={{
@@ -22,7 +22,11 @@ const CollectionPreview = ({ title, items, routeName, history }) => {
       </h1>
 
       <Card.Group
-        style={{ marginBottom: "60px", marginTop: "0px" }}
+        style={{
+          marginBottom: "60px",
+          marginTop: "0px",
+          paddingBottom: "10px",
+        }}
         centered
         itemsPerRow={4}
       >
@@ -32,7 +36,7 @@ const CollectionPreview = ({ title, items, routeName, history }) => {
             <CollectionItem key={item.id} item={item} />
           ))}
       </Card.Group>
-    </Fragment>
+    </div>
   );
 };
 

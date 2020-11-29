@@ -4,11 +4,9 @@ import Directory from "./../../components/directory/directory.component";
 
 const HomePage = () => {
   return (
-    <div>
-      <Container fluid style={{ width: "100%" }}>
-        <Directory />
-      </Container>
-    </div>
+    <Container style={{ width: "90%" }}>
+      <Directory />
+    </Container>
   );
 };
 
