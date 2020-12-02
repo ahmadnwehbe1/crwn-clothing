@@ -78,7 +78,7 @@ const Header = () => {
             </Link>
           </Menu.Item>
           <Menu.Item>
-            <Link to="/" className="menuItem">
+            <Link to="/signin" className="menuItem">
               sign in
             </Link>
           </Menu.Item>

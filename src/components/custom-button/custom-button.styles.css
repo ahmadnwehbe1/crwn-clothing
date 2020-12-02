@@ -1,0 +1,16 @@
+.signInButton {
+  text-transform: uppercase !important;
+  font-family: "Open Sans Condensed" !important;
+  padding-right: 35px !important;
+  padding-left: 35px !important;
+  font-size: 15px !important;
+  height: 50px !important;
+  font-weight: bolder !important;
+  min-width: 165px !important;
+  border: 1px solid black !important;
+}
+
+.signInButton:hover {
+  background-color: white !important;
+  color: black !important;
+}
